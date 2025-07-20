@@ -1,6 +1,6 @@
 import random
 
-words = ['apple', 'chair', 'dream', 'bread', 'eagle']
+words = ['panda', 'pizza', 'junks', 'mouse', 'phone']
 word = random.choice(words)
 guessed_word = ['_'] * len(word)
 attempts_left = 6
