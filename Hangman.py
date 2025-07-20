@@ -1,5 +1,5 @@
 import random
-
+import time
 words = ['panda', 'pizza', 'junks', 'mouse', 'phone']
 word = random.choice(words)
 guessed_word = ['_'] * len(word)
@@ -39,3 +39,5 @@ if '_' not in guessed_word:
     print("Congratulations! You guessed the word:", word)
 else:
     print("Game over! The word was:", word)
+
+time.sleep(2)
